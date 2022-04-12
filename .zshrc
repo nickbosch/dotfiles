@@ -1,7 +1,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
+ZSH_THEME=""
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
@@ -60,6 +61,9 @@ gpgconf --launch gpg-agent
 
 # direnv hook
 eval "$(direnv hook zsh)"
+
+# starship prompt hook
+eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
