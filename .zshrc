@@ -65,6 +65,9 @@ eval "$(direnv hook zsh)"
 # starship prompt hook
 eval "$(starship init zsh)"
 
+# zoxide hook
+eval "$(zoxide init zsh)"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # load aliases

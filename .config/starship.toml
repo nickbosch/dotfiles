@@ -1,5 +1,13 @@
-# Disable the package module, hiding it from the prompt completely
 aws.disabled = true
 gcloud.disabled = true
 nodejs.disabled = true
+python.disabled = true
+pulumi.disabled = true
 package.disabled = true
+
+[git_branch]
+symbol = " "
+
+# [gcloud]
+# format = 'on [$symbol$project]($style) '
+# symbol = " "
