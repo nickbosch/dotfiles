@@ -11,6 +11,7 @@ alias pnpmr='pnpm recursive'
 alias dockerkill='docker kill $(docker container ls --latest --quiet)'
 
 # custom git aliases
+alias glr='gl --rebase'
 alias gpnv='gp --no-verify'
 alias gpfnv='gpf --no-verify'
 alias gpsupnv='gpsup --no-verify'
