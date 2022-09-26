@@ -1,0 +1,16 @@
+add_newline = false
+character.disabled = true
+
+aws.disabled = true
+gcloud.disabled = true
+nodejs.disabled = true
+python.disabled = true
+pulumi.disabled = true
+package.disabled = true
+
+[git_branch]
+symbol = " "
+
+# [gcloud]
+# format = 'on [$symbol$project]($style) '
+# symbol = " "
