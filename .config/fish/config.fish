@@ -1,5 +1,9 @@
 # homebrew
-eval (/opt/homebrew/bin/brew shellenv)
+if test -e /opt/homebrew/bin/brew
+    eval (/opt/homebrew/bin/brew shellenv)
+else
+    eval (/usr/local/bin/brew shellenv)
+end
 
 # asdf-vm
 source (brew --prefix)/opt/asdf/libexec/asdf.fish
