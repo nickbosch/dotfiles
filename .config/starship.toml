@@ -1,4 +1,5 @@
 aws.disabled = true
+elixir.disabled = true
 gcloud.disabled = true
 nodejs.disabled = true
 python.disabled = true
