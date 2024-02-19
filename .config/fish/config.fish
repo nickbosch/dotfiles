@@ -20,3 +20,4 @@ if status is-interactive
 end
 
 abbr -a -- dacl git\ log\ --oneline\ --no-decorate\ \|\ awk\ \'/release:/\ \{exit\}\ \{print\ \"-\ \"\ \$0\}\'
+abbr -a -- gstau git stash --include-untracked
