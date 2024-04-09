@@ -5,6 +5,7 @@ nodejs.disabled = true
 python.disabled = true
 pulumi.disabled = true
 package.disabled = true
+docker_context.disabled = true
 
 [git_branch]
 symbol = " "
