@@ -2,10 +2,10 @@ aws.disabled = true
 elixir.disabled = true
 gcloud.disabled = true
 nodejs.disabled = true
-python.disabled = true
 pulumi.disabled = true
 package.disabled = true
 docker_context.disabled = true
+dotnet.disabled = true
 
 [git_branch]
 symbol = " "
