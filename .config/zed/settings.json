@@ -7,8 +7,19 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-20240620"
+    },
+    "version": "2"
+  },
   "theme": "XY-Zed",
   "base_keymap": "VSCode",
-  "ui_font_size": 16,
-  "buffer_font_size": 14
+  "buffer_font_size": 14,
+  "languages": {
+    "Elixir": {
+      "language_servers": ["elixir-ls", "!next-ls", "!lexical"]
+    }
+  }
 }
