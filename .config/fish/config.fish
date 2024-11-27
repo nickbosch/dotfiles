@@ -34,6 +34,9 @@ abbr -a -- prcrw gh pr create --web
 abbr -a -- prv gh pr view
 abbr -a -- prvw gh pr view --web
 
+# pnpm
+abbr -a -- pnpmr pnpm recursive
+
 function lgtm
   set -f emoji (node -e 'console.log(["👍","🙌","🚀","🚢","👌","✅"][Math.floor(Math.random()*6)])')
   gh pr review --approve --body "LGTM $emoji" $argv
