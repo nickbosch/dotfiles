@@ -44,7 +44,7 @@ end
 
 # pnpm
 set -gx PNPM_HOME "/Users/nickbosch/Library/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
-end
+fish_add_path $PNPM_HOME
 # pnpm end
+
+fish_add_path $HOME/.local/bin
