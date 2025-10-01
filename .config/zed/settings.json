@@ -10,18 +10,20 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "assistant": {
+  "agent": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
-    },
-    "version": "2"
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-latest"
+    }
   },
   "theme": "XY-Zed",
   "base_keymap": "VSCode",
   "buffer_font_size": 14,
+  "buffer_font_family": "JetBrains Mono",
+  // "ui_font_family": "JetBrainsMono Nerd Font Propo",
   "terminal": {
-    "font_family": "ZedPlexMono Nerd Font"
+    //"font_family": "ZedPlexMono Nerd Font"
+    "font_family": "JetBrainsMono Nerd Font"
   },
   "tabs": {
     "file_icons": true,
