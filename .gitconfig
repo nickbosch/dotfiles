@@ -10,6 +10,3 @@
 [rebase]
     updateRefs = true
     autosquash = true
-[user]
-	email = nick@brainfi.sh
-	name = Nick Bosch
