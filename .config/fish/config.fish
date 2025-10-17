@@ -6,10 +6,10 @@ else
 end
 
 # asdf-vm
-source (brew --prefix)/opt/asdf/libexec/asdf.fish
+# source (brew --prefix)/opt/asdf/libexec/asdf.fish
 
 # direnv
-direnv hook fish | source
+# direnv hook fish | source
 
 # zoxide
 zoxide init fish | source
@@ -23,6 +23,11 @@ abbr -a -- dacl git\ log\ --oneline\ --no-decorate\ \|\ awk\ \'/release:/\ \{exi
 abbr -a -- gstau git stash --include-untracked
 abbr -a -- c code
 abbr -a -- c. code .
+
+# Git
+abbr -a -- gcv! git commit -v --no-verify --amend
+abbr -a -- gcv!! git commit -v --no-verify --amend --no-edit
+abbr -a -- gcav!! git commit -a -v --no-verify --amend --no-edit
 
 # GitHub CLI
 abbr -a -- prco gh pr checkout
@@ -43,7 +48,7 @@ function lgtm
 end
 
 # pnpm
-set -gx PNPM_HOME "/Users/nickbosch/Library/pnpm"
+set -gx PNPM_HOME "~/Library/pnpm"
 fish_add_path $PNPM_HOME
 # pnpm end
 
