@@ -1,3 +1,6 @@
 [tools]
 node = "24.7.0"
 python = "3.12.10"
+
+[settings]
+idiomatic_version_file_enable_tools = ["node", "python"]

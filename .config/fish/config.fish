@@ -5,12 +5,6 @@ else
     eval (/usr/local/bin/brew shellenv)
 end
 
-# asdf-vm
-# source (brew --prefix)/opt/asdf/libexec/asdf.fish
-
-# direnv
-# direnv hook fish | source
-
 # zoxide
 zoxide init fish | source
 
