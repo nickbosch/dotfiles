@@ -7,6 +7,11 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "ui_font_weight": 350.0,
+  "ui_font_size": 14.0,
+  "ui_font_family": ".ZedSans",
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 450.0,
   "features": {
     "edit_prediction_provider": "zed"
   },
@@ -16,9 +21,9 @@
       "model": "claude-sonnet-4-latest"
     }
   },
-  "theme": "XY-Zed",
+  "theme": "Modest Dark",
   "base_keymap": "VSCode",
-  "buffer_font_size": 14,
+  "buffer_font_size": 14.0,
   "buffer_font_family": "JetBrains Mono",
   // "ui_font_family": "JetBrainsMono Nerd Font Propo",
   "terminal": {
