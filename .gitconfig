@@ -10,3 +10,5 @@
 [rebase]
     updateRefs = true
     autosquash = true
+[core]
+    excludesfile = ~/.gitignore_global
