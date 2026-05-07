@@ -7,19 +7,38 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "cli_default_open_behavior": "new_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left",
+    "bold_folder_labels": false
+  },
+  "edit_predictions": {
+    "provider": "zed",
+  },
   "ui_font_weight": 350.0,
   "ui_font_size": 14.0,
-  "ui_font_family": ".ZedSans",
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 450.0,
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
   "agent": {
+    "dock": "right",
+    "default_profile": "write",
+    "inline_assistant_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6-latest",
+    },
     "default_model": {
       "provider": "anthropic",
-      "model": "claude-sonnet-4-latest"
-    }
+      "model": "claude-sonnet-4-6-latest",
+    },
   },
   "theme": "Modest Dark",
   "base_keymap": "VSCode",
@@ -28,19 +47,50 @@
   // "ui_font_family": "JetBrainsMono Nerd Font Propo",
   "terminal": {
     //"font_family": "ZedPlexMono Nerd Font"
-    "font_family": "JetBrainsMono Nerd Font"
+    "font_family": "JetBrainsMono Nerd Font",
   },
   "tabs": {
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
   "format_on_save": "on",
   "code_actions_on_format": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
   },
   "languages": {
-    "Elixir": {
-      "language_servers": ["elixir-ls", "!next-ls", "!lexical"]
-    }
-  }
+    "Python": {
+      "format_on_save": "off",
+    },
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "vtsls": {
+          "autoUseWorkspaceTsdk": true,
+          "experimental": {
+            "completion": {
+              "enableServerSideFuzzyMatch": true,
+              "entriesLimit": 10,
+            },
+          },
+        },
+        "typescript": {
+          "preferGoToSourceDefinition": true,
+          "tsserver": {
+            "maxTsServerMemory": 24576,
+            "enableTracing": false,
+            "log": "off",
+          },
+        },
+        "javascript": {
+          "preferGoToSourceDefinition": true,
+          "tsserver": {
+            "maxTsServerMemory": 8192,
+            "enableTracing": false,
+            "log": "off",
+          },
+        },
+      },
+    },
+  },
 }
