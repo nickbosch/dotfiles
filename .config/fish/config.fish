@@ -22,6 +22,7 @@ abbr -a -- c. code .
 abbr -a -- gcv! git commit -v --no-verify --amend
 abbr -a -- gcv!! git commit -v --no-verify --amend --no-edit
 abbr -a -- gcav!! git commit -a -v --no-verify --amend --no-edit
+abbr -a -- gfrp 'git fetch && git rebase origin/main && git push --force-with-lease'
 
 # GitHub CLI
 abbr -a -- prco gh pr checkout
