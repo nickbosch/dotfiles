@@ -1,8 +1,10 @@
 [tools]
-node = "24.7.0"
+bun = "latest"
+node = "24"
 python = "3.14.0"
 rust = "stable"
 uv = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "python"]
+lockfile = true
