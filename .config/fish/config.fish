@@ -1,9 +1,5 @@
 # homebrew
-if test -e /opt/homebrew/bin/brew
-    eval (/opt/homebrew/bin/brew shellenv)
-else
-    eval (/usr/local/bin/brew shellenv)
-end
+eval (/opt/homebrew/bin/brew shellenv)
 
 # zoxide
 zoxide init fish | source
