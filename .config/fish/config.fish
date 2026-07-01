@@ -44,3 +44,7 @@ fish_add_path $PNPM_HOME
 # pnpm end
 
 fish_add_path $HOME/.local/bin
+
+if test -d /opt/homebrew/opt/libpq/bin
+    fish_add_path /opt/homebrew/opt/libpq/bin
+end
