@@ -1,7 +1,0 @@
-function fetchjson () {
-  curl --silent "$@" | jq
-}
-
-function deploy-fn () {
-  yarn build:$1 && yarn sls deploy --function $1
-}
