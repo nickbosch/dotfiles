@@ -7,19 +7,24 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
   "cli_default_open_behavior": "new_window",
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "project_panel": {
     "dock": "left",
-    "bold_folder_labels": false
+    "bold_folder_labels": false,
   },
   "edit_predictions": {
     "provider": "zed",
@@ -28,18 +33,6 @@
   "ui_font_size": 14.0,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 450.0,
-  "agent": {
-    "dock": "right",
-    "default_profile": "write",
-    "inline_assistant_model": {
-      "provider": "anthropic",
-      "model": "claude-sonnet-4-6-latest",
-    },
-    "default_model": {
-      "provider": "anthropic",
-      "model": "claude-sonnet-4-6-latest",
-    },
-  },
   "theme": "Modest Dark",
   "base_keymap": "VSCode",
   "buffer_font_size": 14.0,
