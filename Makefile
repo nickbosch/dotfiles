@@ -1,7 +1,7 @@
 .PHONY: install simulate
 
 install:
-	stow -t ~ .
+	stow --verbose --no-folding -t ~ .
 
 simulate:
-	stow --simulate --verbose -t ~ .
+	stow --simulate --verbose --no-folding -t ~ .
