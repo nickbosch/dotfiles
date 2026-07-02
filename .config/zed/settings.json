@@ -33,7 +33,11 @@
   "ui_font_size": 14.0,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 450.0,
-  "theme": "Modest Dark",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Modest Dark"
+  },
   "base_keymap": "VSCode",
   "buffer_font_size": 14.0,
   "buffer_font_family": "JetBrains Mono",
