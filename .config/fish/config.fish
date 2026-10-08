@@ -1,3 +1,5 @@
+set -gx EDITOR nvim
+
 # homebrew
 eval (/opt/homebrew/bin/brew shellenv)
 
@@ -39,7 +41,7 @@ function lgtm
 end
 
 # pnpm
-set -gx PNPM_HOME "~/Library/pnpm"
+set -gx PNPM_HOME "$HOME/Library/pnpm"
 fish_add_path $PNPM_HOME
 # pnpm end
 

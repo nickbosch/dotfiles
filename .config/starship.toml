@@ -1,4 +1,6 @@
-aws.disabled = true
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# aws.disabled = true
 elixir.disabled = true
 gcloud.disabled = true
 nodejs.disabled = true

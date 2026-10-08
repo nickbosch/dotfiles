@@ -38,13 +38,13 @@ format_tokens() {
 five_hour=$(echo "$input" | jq -r '.rate_limits.five_hour.used_percentage // empty')
 seven_day=$(echo "$input" | jq -r '.rate_limits.seven_day.used_percentage // empty')
 
-# Colors (dimmed-friendly for terminal status line)
-COLOR_DIR="\033[2;36m"    # dim cyan
-COLOR_BRANCH="\033[2;33m" # dim yellow
-COLOR_MODEL="\033[2;35m"  # dim magenta
-COLOR_STYLE="\033[2;34m"  # dim blue
-COLOR_CTX="\033[2;32m"    # dim green
-COLOR_RATE="\033[2;31m"   # dim red
+# Colors (bright ANSI for contrast on dark terminals)
+COLOR_DIR="\033[36m"     # cyan
+COLOR_BRANCH="\033[38;5;179m" # soft amber
+COLOR_MODEL="\033[95m"  # bright magenta
+COLOR_STYLE="\033[94m"  # bright blue
+COLOR_CTX="\033[92m"    # bright green
+COLOR_RATE="\033[91m"   # bright red
 RESET="\033[0m"
 SEP="\033[2;37m\xc2\xb7\033[0m"
 
