@@ -50,3 +50,9 @@ fish_add_path $HOME/.local/bin
 if test -d /opt/homebrew/opt/libpq/bin
     fish_add_path /opt/homebrew/opt/libpq/bin
 end
+
+# Added by git-ai installer on Mon Nov  2 17:16:46 2026
+fish_add_path -g "/Users/nickbosch/.git-ai/bin"
+
+# Disable fish welcome message
+set -g fish_greeting
