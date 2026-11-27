@@ -1,0 +1,14 @@
+.tmux.conf
+  h_f890f6ea279f19 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "74f070fb4b260a8e79e875f34adf922593d803a4",
+  "prompts": {},
+  "humans": {
+    "h_f890f6ea279f19": {
+      "author": "Nick Bosch <nick@boschdesign.com.au>"
+    }
+  }
+}
