@@ -35,11 +35,6 @@ abbr -a -- prvw gh pr view --web
 # pnpm
 abbr -a -- pnpmr pnpm recursive
 
-function lgtm
-  set -f emoji (node -e 'console.log(["👍","🙌","🚀","🚢","👌","✅"][Math.floor(Math.random()*6)])')
-  gh pr review --approve --body "LGTM $emoji" $argv
-end
-
 # pnpm
 set -gx PNPM_HOME "$HOME/Library/pnpm"
 fish_add_path $PNPM_HOME
