@@ -1,0 +1,19 @@
+.config/fish/config.fish
+  s_4f25216092fe80::t_70e23eb9734e56 53-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7569b6ae5dc377b65d6d9f8919ff7923dd55da03",
+  "prompts": {},
+  "sessions": {
+    "s_4f25216092fe80": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8f94440f-f229-413f-a269-051a82515a1b",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Nick Bosch <nick@boschdesign.com.au>"
+    }
+  }
+}
